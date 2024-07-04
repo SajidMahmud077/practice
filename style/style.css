@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Space+Grotesk:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: white;
+
+  font-weight: bolder;
+  font-family: "Space Grotesk", sans-serif;
+  border: 10px solid white;
+  box-shadow: 5px 5px 5px #da0da0;
+  margin:20px 20px;
+  font-size: 80px;
+  text-align: center;
+}
+
+#heading-parent {
+  background-image: linear-gradient(45deg, #730654, transparent),
+    url("mac.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  padding: 100px 0;
+  max-width: 1100px;
+  margin: 30px auto;
+}
+.btn-parent {
+  text-align: center;
+  margin: 20px 0;
+}
+.btn {
+  background-color: rgb(137, 41, 182);
+  padding: 8px 15px;
+  color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: yellow;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Gamja Flower", sans-serif;
+}
+.btn:hover{
+  color: rgb(149, 245, 5);
+}
